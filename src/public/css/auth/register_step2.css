@@ -1,0 +1,88 @@
+body{
+    background: linear-gradient(to bottom right, #fbc2eb, #a6c1ee);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+}
+
+.register-form{
+    background: #fff;
+    padding: 40px;
+    border-radius: 15px;
+    box-shadow: 0 4px 20px rgba(0,0,0,0.1);
+    width: 500px;
+    text-align: center;
+}
+
+.register-logo{
+    font-size: 36px;
+    color: #d96bb8;
+    margin-bottom: 10px;
+    font-family: "Hiragino Mincho ProN", serif;
+}
+
+.register-form h2{
+    font-size: 20px;
+    margin-bottom: 5px;
+    font-family: "Hiragino Mincho ProN", serif;
+}
+
+.register-form h3{
+    font-size: 16px;
+    margin-bottom: 20px;
+    font-family: "Hiragino Mincho ProN", serif;
+}
+
+.register-form__group{
+    margin-bottom: 20px;
+    text-align: left;
+}
+
+.register-form__label{
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.register-form__input-wrapper{
+    display: flex;
+    align-items: center;
+}
+
+.register-form__input{
+    flex: 1;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    font-size: 14px;
+}
+
+.register-form__unit{
+    margin-left: 8px;
+    color: #666;
+}
+
+.register-form__error-message{
+    color: red;
+    font-size: 12px;
+    margin-top: 5px;
+}
+
+.register-btn{
+    width: 60%;
+    padding: 8px;
+    border: none;
+    border-radius: 15px;
+    background: linear-gradient(to right, #a18cd1, #fbc2eb);
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+    transition: opacity 0.3s;
+}
+
+.register-btn:hover{
+    opacity: 0.8;
+}

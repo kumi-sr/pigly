@@ -4,7 +4,7 @@ namespace App\Http\Controllers;
 
 use App\Http\Requests\RegisterStep1Request;
 use App\Http\Requests\RegisterStep2Request;
-use Illuminate\Http\Request;
+use App\Http\Requests\LoginRequest;
 
 class RegisterController extends Controller
 {
@@ -21,7 +21,7 @@ class RegisterController extends Controller
 
     public function showStep2()
     {
-        return view('auth.register_steps');
+        return view('auth.register_step2');
     }
 
     public function storeStep2(RegisterStep2Request $request)
