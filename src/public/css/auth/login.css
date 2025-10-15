@@ -1,0 +1,91 @@
+body {
+    margin: 0;
+    background: linear-gradient(to bottom right, #fbc2eb, #a6c1ee);
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Arial', sans-serif;
+}
+
+.register-form {
+    background-color: #fff;
+    padding: 50px 60px;
+    border-radius: 20px;
+    width: 500px;
+    text-align: center;
+}
+
+.register-logo {
+    font-size: 36px;
+    color: #d96bb8;
+    margin-bottom: 10px;
+    font-family: "Hiragino Mincho ProN", serif;
+}
+
+.register-form h2 {
+    font-size: 20px;
+    margin-bottom: 5px;
+    font-family: "Hiragino Mincho ProN", serif;
+}
+
+.register-form h3 {
+    font-size: 16px;
+    margin-bottom: 20px;
+    font-family: "Hiragino Mincho ProN", serif;
+}
+
+.register-form__group {
+    margin-bottom: 20px;
+    text-align: left;
+}
+
+.register-form__label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.register-form__input {
+    flex: 1;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    font-size: 14px;
+    width: 100%;
+}
+
+.register-form__error-message {
+    color: red;
+    font-size: 12px;
+    margin-top: 5px;
+}
+
+.register-btn {
+    width: 60%;
+    padding: 8px;
+    border: none;
+    border-radius: 15px;
+    background: linear-gradient(to right, #a18cd1, #fbc2eb);
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+    transition: opacity 0.3s;
+}
+
+.register-btn:hover {
+    opacity: 0.8;
+}
+
+.login__link {
+    margin-top: 20px;
+}
+
+.login__link .link {
+    font-size: 14px;
+    color: #4a68d4;
+}
+
+.login__link .link:hover {
+    text-decoration: underline;
+}

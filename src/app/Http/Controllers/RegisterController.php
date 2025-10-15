@@ -27,5 +27,6 @@ class RegisterController extends Controller
     public function storeStep2(RegisterStep2Request $request)
     {
         session(['register.step2' => $request->validated()]);
+        return redirect()->route('weightlogs.index');
     }
 }
